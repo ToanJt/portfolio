@@ -20,7 +20,7 @@
             </h1>
         </div>
         <div class="relative h-screen overflow-hidden max-w-[1140px] mx-auto w-full">
-            <div class="absolute top-48 w-full">
+            <div class="absolute sm:top-48 top-24 w-full">
                 <h1
                     class="xl:text-5xl sm:text-[44px] text-[30px] xl:ml-0 sm:ml-16 font-montserrat font-semibold lg:mb-20 mb-0 sm:text-left text-center">
                     <span class="text-pink-700">What</span> I

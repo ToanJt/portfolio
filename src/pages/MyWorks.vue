@@ -54,7 +54,7 @@ function changeBg(params) {
                             <p class="xl:mr-56 lg:mr-32 md:mr-24 sm:mr-20 mr-6 text-lg">01</p>
                             <div>
                                 <h1
-                                    class="has-line short:mb-[-.5rem] lg:mb-0 mb-[-.5rem] relative test cursor-pointer font-montserrat font-semibold short:text-[54px] sm:text-[54px] text-[36px] lg:text-[66px]">
+                                    class="has-line short:mb-[-.5rem] lg:mb-0 mb-[-.5rem] relative test cursor-pointer font-montserrat font-semibold sm:text-[54px] text-[30px] lg:text-[66px] vshort:text-[30px] short:text-[40px] ">
                                     Abstract Skat</h1>
                                 <p class="text-sm">Illustration</p>
                             </div>
@@ -65,7 +65,7 @@ function changeBg(params) {
                             <p class="xl:mr-56 lg:mr-32 md:mr-24 sm:mr-20 mr-6 text-lg">02</p>
                             <div>
                                 <h1
-                                    class="has-line short:mb-[-.5rem] lg:mb-0 mb-[-.5rem] relative test cursor-pointer font-montserrat font-semibold short:text-[54px] sm:text-[54px] text-[36px] lg:text-[66px]">
+                                    class="has-line short:mb-[-.5rem] lg:mb-0 mb-[-.5rem] relative test cursor-pointer font-montserrat font-semibold sm:text-[54px] text-[30px] lg:text-[66px] vshort:text-[30px] short:text-[40px] ">
                                     Borato
                                     Prism</h1>
                                 <p class="text-sm">Branding</p>
@@ -77,7 +77,7 @@ function changeBg(params) {
                             <p class="xl:mr-56 lg:mr-32 md:mr-24 sm:mr-20 mr-6 text-lg">03</p>
                             <div class="w-full">
                                 <h1
-                                    class="has-line short:mb-[-.5rem] lg:mb-0 mb-[-.5rem] relative test cursor-pointer font-montserrat font-semibold short:text-[54px] sm:text-[54px] text-[36px] lg:text-[66px]">
+                                    class="has-line short:mb-[-.5rem] lg:mb-0 mb-[-.5rem] relative test cursor-pointer font-montserrat font-semibold sm:text-[54px] text-[30px] lg:text-[66px] vshort:text-[30px] short:text-[40px] ">
                                     Brole Mobile App
                                 </h1>
                                 <p class="text-sm">Mobile</p>
@@ -89,14 +89,14 @@ function changeBg(params) {
                             <p class="xl:mr-56 lg:mr-32 md:mr-24 sm:mr-20 mr-6 text-lg">04</p>
                             <div>
                                 <h1
-                                    class="has-line short:mb-[-.5rem] lg:mb-0 mb-[-.5rem] relative test cursor-pointer font-montserrat font-semibold short:text-[54px] sm:text-[54px] text-[36px] lg:text-[66px]">
+                                    class="has-line short:mb-[-.5rem] lg:mb-0 mb-[-.5rem] relative test cursor-pointer font-montserrat font-semibold sm:text-[54px] text-[30px] lg:text-[66px] vshort:text-[30px] short:text-[40px] ">
                                     Bauhaus
                                     Studio</h1>
                                 <p class="text-sm">Branding</p>
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-center mt-12 short:mt-6">
+                    <div class="flex items-center mt-12 short:mt-6 mb-8">
                         <h1 class="font-montserrat has-line-one sm:ml-64 ml-12 text-lg relative">View all projects</h1>
                     </div>
                 </div>

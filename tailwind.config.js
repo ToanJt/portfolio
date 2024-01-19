@@ -30,7 +30,7 @@ module.exports = {
           raw: "(max-height: 700px)",
         },
         vshort: {
-          raw: "(max-height: 500px)",
+          raw: "(max-height: 600px)",
         },
       },
     },

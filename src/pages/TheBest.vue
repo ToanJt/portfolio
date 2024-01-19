@@ -20,13 +20,13 @@
             </h1>
         </div>
         <div
-            class="max-w-[1140px] short:h-max md:h-full h-screen mx-auto sm:px-16 px-8 lg:pt-56 pt-40 short:pt-36 flex md:flex-row flex-col justify-center">
+            class="max-w-[1140px] short:h-screen md:h-full h-screen mx-auto sm:px-16 px-8 lg:pt-56 pt-40 short:pt-36 flex md:flex-row flex-col justify-center">
             <div
-                class="relative short:h-[50%] xl:w-[50%] md:w-[50%] sm:w-[50%] w-full 2xl:mr-36 lg:mr-20 sm:mr-14 mr-0 lg:mb-0 md:mb-48 mb-8 md:mt-0 mt-72 md:px-12 px-8 short:px-6 py-4 short:py-0 border-solid border-white border">
+                class="relative short:h-[50%] xl:w-[50%] md:w-[50%] sm:w-[50%] w-full 2xl:mr-36 lg:mr-20 sm:mr-14 mr-0 lg:mb-0 md:mb-48 mb-8 md:mt-0 sm:mt-72 mt-60 md:px-12 px-8 short:px-6 py-4 short:py-0 border-solid border-white border">
                 <h1 class="lg:text-[324px] sm:text-[300px] text-[200px] short:text-[240px] leading-none">3</h1>
-                <div class="flex flex-col justify-center">
-                    <div class="has-line absolute sm:w-20 w-10 h-[1px] bg-white"></div>
-                    <ul class="md:pb-16 pb-2 lg:text-lg md:text-base text-sm text-right">
+                <div class="flex flex-col justify-center absolute left-4 right-4 bottom-0">
+                    <div class=" has-line absolute sm:w-20 w-10 h-[1px] bg-white"></div>
+                    <ul class="md:pb-16 pb-2 lg:text-lg md:text-base sm:text-sm text-[12px] text-right">
                         <li>Years</li>
                         <li>Experience</li>
                         <li>Working</li>
@@ -95,7 +95,7 @@
     transition: {
         duration: 800
     }
-}" class="bg-pink-700 w-[0%] sm:h-10 h-9"></div>
+}" class="bg-pink-700 w-[0%] sm:h-10 h-9 sm:mb-0 mb-16"></div>
                         </div>
                     </div>
                 </div>
