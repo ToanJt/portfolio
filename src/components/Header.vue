@@ -1,6 +1,6 @@
 <template>
     <section
-        class="backdrop-blur-xl pt-8 short:py-[20px] py-[32px] z-40 fixed lg:left-16 lg:right-16 md:left-12 md:right-12 left-6 right-6 flex justify-between">
+        class="backdrop-blur-xl pt-8 short:py-[20px] py-[32px] z-40 fixed left-0 right-0 lg:pl-16 lg:pr-16 md:pl-12 md:pr-12 pl-6 pr-6 flex justify-between">
         <div class="flex items-center">
             <div class="flex items-center mr-16 lg:mr-36">
                 <img class="h-10 mr-4" src="@/assets/T_logo.png" alt="">

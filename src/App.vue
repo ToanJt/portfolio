@@ -7,8 +7,8 @@
     <TheBest class="acttachment-thebest section h-screen" />
     <MyWorks class="section h-screen bg-local bg-center" />
     <Partners class="section bg-[#1b1b1b]" />
-    <TimeLine class="section h-screen" />
-    <Inspire class="section h-screen bg-[#1b1b1b]" />
+    <!-- <TimeLine class="section h-screen" />
+    <Inspire class="section h-screen bg-[#1b1b1b]" /> -->
     <Contact class="acttachment-contact section h-screen" />
   </full-page>
   <Footer />
@@ -22,8 +22,8 @@ import Experience from "@/pages/Experience.vue"
 import TheBest from "@/pages/TheBest.vue"
 import MyWorks from "@/pages/MyWorks.vue"
 import Partners from "@/pages/Partners.vue"
-import TimeLine from "@/pages/TimeLine.vue"
-import Inspire from "@/pages/Inspire.vue"
+// import TimeLine from "@/pages/TimeLine.vue"
+// import Inspire from "@/pages/Inspire.vue"
 import Contact from "@/pages/Contact.vue"
 import Footer from "@/components/Footer.vue"
 export default {
@@ -36,8 +36,8 @@ export default {
     TheBest,
     MyWorks,
     Partners,
-    TimeLine,
-    Inspire,
+    // TimeLine,
+    // Inspire,
     Contact,
     Footer
   },

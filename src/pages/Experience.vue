@@ -51,15 +51,17 @@
                                 nesciunt mollitia eum natus! Beatae.</p>
                         </div>
                         <div class="">
-                            <h5 class="mt-8 uppercase font-medium tracking-widest font-montserrat lg:text-[16px] text-sm">
+                            <h5
+                                class="mt-8 uppercase font-medium tracking-widest font-montserrat lg:text-[16px] sm:text-sm text-[13px]">
                                 Specialization
                                 Course
                             </h5>
-                            <div class="lg:text-sm text-[13px] italic my-4">
+                            <div class="lg:text-sm sm:text-[13px] text-[12px] italic my-4">
                                 <p class="mb-2">University of studies, Poland, Cracow</p>
                                 <p>Jan 2004 - Dec 2006</p>
                             </div>
-                            <p class="lg:text-sm text-[13px] leading-7">Lorem ipsum dolor sit amet consectetur adipisicing
+                            <p class="lg:text-sm sm:text-[13px] text-[12px] leading-7">Lorem ipsum dolor sit amet
+                                consectetur adipisicing
                                 elit.
                                 Impedit ullam
                                 vel
@@ -73,18 +75,20 @@
                 <div class="hoverActive relative z-50 md:mt-24 mt-12 bottom-4 flex text-left">
                     <div class="hoverActive hover:bg-pink-700 bg-[rgba(255,255,255,.1)] lg:px-14 px-8 pb-14 relative">
                         <h3
-                            class="absolute z-50 top-[-1.75rem] font-montserrat font-semibold lg:text-5xl md:text-[44px] text-[40px]">
+                            class="absolute z-50 top-[-1.75rem] font-montserrat font-semibold lg:text-5xl md:text-[44px] sm:text-[40px] text-[30px]">
                             Experience</h3>
                         <div class="mb-6 pb-6 border-b border-solid">
-                            <h5 class="mt-16 uppercase font-medium tracking-widest font-montserrat lg:text-[16px] text-sm">
+                            <h5
+                                class="mt-16 uppercase font-medium tracking-widest font-montserrat lg:text-[16px] sm:text-sm text-[13px]">
                                 Specialization
                                 Course
                             </h5>
-                            <div class="lg:text-sm text-[13px] italic my-4">
+                            <div class="lg:text-sm sm:text-[13px] text-[12px] italic my-4">
                                 <p class="mb-2">University of studies, Poland, Cracow</p>
                                 <p>Jan 2004 - Dec 2006</p>
                             </div>
-                            <p class="lg:text-sm text-[13px] leading-7">Lorem ipsum dolor sit amet consectetur adipisicing
+                            <p class="lg:text-sm sm:text-[13px] text-[12px] leading-7">Lorem ipsum dolor sit amet
+                                consectetur adipisicing
                                 elit.
                                 Impedit ullam
                                 vel
@@ -94,15 +98,17 @@
                                 nesciunt mollitia eum natus! Beatae.</p>
                         </div>
                         <div class="">
-                            <h5 class="mt-8 uppercase font-medium tracking-widest font-montserrat lg:text-[16px] text-sm">
+                            <h5
+                                class="mt-8 uppercase font-medium tracking-widest font-montserrat lg:text-[16px] sm:text-sm text-[13px]">
                                 Specialization
                                 Course
                             </h5>
-                            <div class="lg:text-sm text-[13px] italic my-4">
+                            <div class="lg:text-sm sm:text-[13px] text-[12px] italic my-4">
                                 <p class="mb-2">University of studies, Poland, Cracow</p>
                                 <p>Jan 2004 - Dec 2006</p>
                             </div>
-                            <p class="lg:text-sm text-[13px] leading-7">Lorem ipsum dolor sit amet consectetur adipisicing
+                            <p class="lg:text-sm sm:text-[13px] text-[12px] leading-7">Lorem ipsum dolor sit amet
+                                consectetur adipisicing
                                 elit.
                                 Impedit ullam
                                 vel
@@ -132,5 +138,4 @@
 
 .hoverActive:hover .test::after {
     opacity: 0;
-}
-</style>
+}</style>
