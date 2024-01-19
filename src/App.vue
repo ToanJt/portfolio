@@ -1,18 +1,15 @@
 <template>
   <Header />
   <full-page :options="options" id="fullpage" ref="fullpage">
-    <Intro class="section bg-[#1d1d1d]" />
+    <Intro class="attachment-intro section" />
     <Specialization class="section bg-[#1b1b1b]" />
-    <Experience class="section bg-local bg-center"
-      style="background-image: url('http://paul-themes.com/wordpress/ramsay/wp-content/uploads/2019/12/attachment-04.jpg');" />
-    <TheBest class="section h-screen bg-local bg-center"
-      style="background-image: url('http://paul-themes.com/wordpress/ramsay/wp-content/uploads/2019/12/attachment-02.jpg')" />
+    <Experience class="attachment-experience section" />
+    <TheBest class="acttachment-thebest section h-screen" />
     <MyWorks class="section h-screen bg-local bg-center" />
     <Partners class="section bg-[#1b1b1b]" />
     <TimeLine class="section h-screen" />
     <Inspire class="section h-screen bg-[#1b1b1b]" />
-    <Contact class="section h-screen bg-local bg-center bg-cover"
-      style="background-image: url('http://paul-themes.com/wordpress/ramsay/wp-content/uploads/2019/12/attachment-03.jpg')" />
+    <Contact class="acttachment-contact section h-screen" />
   </full-page>
   <Footer />
 </template>
@@ -110,6 +107,29 @@ export default {
   scroll-behavior: smooth;
 }
 
+.attachment-intro {
+  background: url('@/assets/bg-intro2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.acttachment-contact {
+  background: url('@/assets/attachment-03.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.acttachment-thebest {
+  background: url('@/assets/attachment-02.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.attachment-experience {
+  background: url('@/assets/attachment-04.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span,

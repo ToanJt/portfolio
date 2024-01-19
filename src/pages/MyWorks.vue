@@ -1,21 +1,20 @@
 <script setup>
 import { ref } from 'vue';
 const backgrounds = [
-    'http://paul-themes.com/wordpress/ramsay/wp-content/uploads/2019/12/attachment-06.jpg',
-    'http://paul-themes.com/wordpress/ramsay/wp-content/uploads/2019/12/attachment-07.jpg',
-    'http://paul-themes.com/wordpress/ramsay/wp-content/uploads/2019/12/attachment-10.jpg',
-    'http://paul-themes.com/wordpress/ramsay/wp-content/uploads/2019/12/attachment-11.jpg'
+    require('@/assets/attachment-06.jpg'),
+    require('@/assets/attachment-07.jpg'),
+    require('@/assets/attachment-10.jpg'),
+    require('@/assets/attachment-11.jpg'),
 ]
 const current = ref(0);
 
 function changeBg(params) {
     current.value = params;
     const tests2 = document.querySelector('.testt');
-    // tests2.forEach((items) => {
     tests2.style.opacity = '0';
     tests2.style.transform = 'scale(1)';
     tests2.style.transition = '0.8s linear';
-    // })
+
     const tests = document.querySelector('.testt');
     tests.style.opacity = '.6';
     tests.style.transform = 'scale(1.1)';
